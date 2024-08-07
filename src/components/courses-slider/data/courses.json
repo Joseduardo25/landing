@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Curso de Bitcoin Básico",
+        "category": "Bitcoin",
+        "description": "Certificación gratis",
+        "level": "Principiante",
+        "date": "Feb 23, 2020",
+        "image": "/assets/images/bitcoin-course-bg.png"
+    },
+    {
+        "title": "Análisis Técnico de Criptomonedas",
+        "category": "Criptomonedas",
+        "description": "Certificación gratis",
+        "level": "Intermedio",
+        "date": "Feb 23, 2020",
+        "image": "/assets/images/bitcoin-finance-course-bg.png"
+    },
+
+    {
+        "title": "Curso de Bitcoin Básico",
+        "category": "Bitcoin",
+        "description": "Certificación gratis",
+        "level": "Principiante",
+        "date": "Feb 23, 2020",
+        "image": "/assets/images/bitcoin-course-bg.png"
+    },
+    {
+        "title": "Análisis Técnico de Criptomonedas",
+        "category": "Criptomonedas",
+        "description": "Certificación gratis",
+        "level": "Intermedio",
+        "date": "Feb 23, 2020",
+        "image": "/assets/images/bitcoin-finance-course-bg.png"
+    },
+
+    {
+        "title": "Curso de Bitcoin Básico",
+        "category": "Bitcoin",
+        "description": "Certificación gratis",
+        "level": "Principiante",
+        "date": "Feb 23, 2020",
+        "image": "/assets/images/bitcoin-course-bg.png"
+    },
+    {
+        "title": "Análisis Técnico de Criptomonedas",
+        "category": "Criptomonedas",
+        "description": "Certificación gratis",
+        "level": "Intermedio",
+        "date": "Feb 23, 2020",
+        "image": "/assets/images/bitcoin-finance-course-bg.png"
+    }
+]

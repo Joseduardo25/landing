@@ -1,14 +1,18 @@
 import Image from "next/image"
-import LogoFluyez from "../../assets/images/Fluyez-logo.png"
-import DesktopMan from "../../assets/images/fluyez-man-desktop.png"
-import MobileMan from "../../assets/images/fluyez-man-mobile.png"
-import MenuMobile from "../../assets/icons/menu-icon-mobile.png"
-
+import LogoFluyez from "/public/assets/images/Fluyez-logo.png"
+import DesktopMan from "/public/assets/images/fluyez-man-desktop.png"
+import MobileMan from "/public/assets/images/fluyez-man-mobile.png"
+import MenuMobile from "/public/assets/icons/menu-icon-mobile.png"
+import IconWorld from "/public/assets/icons/global-outlined.png"
+import IconSafe from "/public/assets/icons/safe-lock-line.png"
+import IconCoins from "/public/assets/icons/coins.png"
+import IconHat from "/public/assets/icons/fluent_hat-graduation.png"
+import Slider from "@/components/courses-slider"
 export default function Home() {
   return (
     <>
       {/* <!-- Navbar --> */}
-      <nav class="bg-white shadow-lg">
+      <nav class="bg-white  my-5">
         <div class="container mx-auto px-4">
           <div class="flex items-center justify-between">
             {/* <!-- Logo --> */}
@@ -61,6 +65,56 @@ export default function Home() {
           <Image src={MobileMan} alt="Criptomonedas" class="block md:hidden" />
         </div>
         <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 block md:hidden ">Empieza aquí</button>
+      </section>
+
+
+      <section className="text-center my-44">
+      <h2 className="text-blue-700 font-semibold">Creado por Fluyez</h2>
+      <h1 className="text-5xl font-bold my-10">Plataforma líder crypto en Perú</h1>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-8">
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+            <Image src={IconWorld} alt="Worl" />
+          </div>
+          <p className="mt-2">+5 millones de usuarios peruanos en nuestra plataforma</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+            <Image src={IconSafe} alt="Safe" />
+          </div>
+          <p className="mt-2">Un espacio seguro para aprender sobre criptomonedas</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+            <Image src={IconCoins} alt="Coins" />
+          </div>
+          <p className="mt-2">+150 criptomonedas disponibles</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+            <Image src={IconHat} alt="Hat" />
+          </div>
+          <p className="mt-2">Formación profesional diseñada por expertos en el rubro</p>
+        </div>
+      </div>
+    </section>
+
+    <section className="text-center my-20">
+      <h2 className="text-blue-700 font-semibold">Cursos GRATUITOS recomendados</h2>
+      <h1 className="text-5xl font-bold my-4 max-w-3xl mx-auto leading-normal">Empieza por lo básico y <span class="bg-yellow-200"> conviértete en experto</span></h1>
+      <div className="flex flex-wrap justify-center gap-2 my-4">
+        <button className="px-4 py-2 bg-blue-100 rounded-full">Destacados</button>
+        <button className="px-4 py-2 bg-blue-100 rounded-full">Blockchain</button>
+        <button className="px-4 py-2 bg-blue-100 rounded-full">Bitcoin</button>
+        <button className="px-4 py-2 bg-blue-100 rounded-full">Ethereum</button>
+        <button className="px-4 py-2 bg-blue-100 rounded-full">DEFI</button>
+        <button className="px-4 py-2 bg-blue-100 rounded-full">Tecnología</button>
+      </div>
+    </section>
+
+
+    <section className="container mx-auto">
+        <Slider />
       </section>
     </>
   )
