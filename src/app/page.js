@@ -7,7 +7,12 @@ import IconWorld from "/public/assets/icons/global-outlined.png"
 import IconSafe from "/public/assets/icons/safe-lock-line.png"
 import IconCoins from "/public/assets/icons/coins.png"
 import IconHat from "/public/assets/icons/fluent_hat-graduation.png"
+import Certificate from "/public/assets/images/certificate.png"
 import Slider from "@/components/courses-slider"
+import TestimonialsCarousel from "@/components/carousel-testimonials"
+import Dapps from "/public/assets/images/Dapps.png"
+import Footer from "@/components/footer"
+
 export default function Home() {
   return (
     <>
@@ -31,7 +36,7 @@ export default function Home() {
               <a href="#" class="text-gray-700 hover:text-blue-700">Contacto</a>
             </div>
             <div>
-            <Image src={MenuMobile} alt="Logo" class="h-8 w-auto block md:hidden" />
+              <Image src={MenuMobile} alt="Logo" class="h-8 w-auto block md:hidden" />
             </div>
           </div>
         </div>
@@ -69,53 +74,132 @@ export default function Home() {
 
 
       <section className="text-center my-44">
-      <h2 className="text-blue-700 font-semibold">Creado por Fluyez</h2>
-      <h1 className="text-5xl font-bold my-10">Plataforma líder crypto en Perú</h1>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-8">
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
-            <Image src={IconWorld} alt="Worl" />
+        <h2 className="text-blue-700 font-semibold">Creado por Fluyez</h2>
+        <h1 className="text-5xl font-bold my-10">Plataforma líder crypto en Perú</h1>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-8">
+          <div className="flex flex-col items-center">
+            <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+              <Image src={IconWorld} alt="Worl" />
+            </div>
+            <p className="mt-2">+5 millones de usuarios peruanos en nuestra plataforma</p>
           </div>
-          <p className="mt-2">+5 millones de usuarios peruanos en nuestra plataforma</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
-            <Image src={IconSafe} alt="Safe" />
+          <div className="flex flex-col items-center">
+            <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+              <Image src={IconSafe} alt="Safe" />
+            </div>
+            <p className="mt-2">Un espacio seguro para aprender sobre criptomonedas</p>
           </div>
-          <p className="mt-2">Un espacio seguro para aprender sobre criptomonedas</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
-            <Image src={IconCoins} alt="Coins" />
+          <div className="flex flex-col items-center">
+            <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+              <Image src={IconCoins} alt="Coins" />
+            </div>
+            <p className="mt-2">+150 criptomonedas disponibles</p>
           </div>
-          <p className="mt-2">+150 criptomonedas disponibles</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
-            <Image src={IconHat} alt="Hat" />
+          <div className="flex flex-col items-center">
+            <div className="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center">
+              <Image src={IconHat} alt="Hat" />
+            </div>
+            <p className="mt-2">Formación profesional diseñada por expertos en el rubro</p>
           </div>
-          <p className="mt-2">Formación profesional diseñada por expertos en el rubro</p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="text-center my-20">
-      <h2 className="text-blue-700 font-semibold">Cursos GRATUITOS recomendados</h2>
-      <h1 className="text-5xl font-bold my-4 max-w-3xl mx-auto leading-normal">Empieza por lo básico y <span class="bg-yellow-200"> conviértete en experto</span></h1>
-      <div className="flex flex-wrap justify-center gap-2 my-4">
-        <button className="px-4 py-2 bg-blue-100 rounded-full">Destacados</button>
-        <button className="px-4 py-2 bg-blue-100 rounded-full">Blockchain</button>
-        <button className="px-4 py-2 bg-blue-100 rounded-full">Bitcoin</button>
-        <button className="px-4 py-2 bg-blue-100 rounded-full">Ethereum</button>
-        <button className="px-4 py-2 bg-blue-100 rounded-full">DEFI</button>
-        <button className="px-4 py-2 bg-blue-100 rounded-full">Tecnología</button>
-      </div>
-    </section>
+      <section className="text-center my-20">
+        <h2 className="text-blue-700 font-semibold">Cursos GRATUITOS recomendados</h2>
+        <h1 className="text-5xl font-bold my-4 max-w-3xl mx-auto leading-normal">Empieza por lo básico y <span class="bg-yellow-200"> conviértete en experto</span></h1>
+        <div className="flex flex-wrap justify-center gap-2 my-4">
+          <button className="px-4 py-2 bg-blue-100 rounded-full">Destacados</button>
+          <button className="px-4 py-2 bg-blue-100 rounded-full">Blockchain</button>
+          <button className="px-4 py-2 bg-blue-100 rounded-full">Bitcoin</button>
+          <button className="px-4 py-2 bg-blue-100 rounded-full">Ethereum</button>
+          <button className="px-4 py-2 bg-blue-100 rounded-full">DEFI</button>
+          <button className="px-4 py-2 bg-blue-100 rounded-full">Tecnología</button>
+        </div>
+      </section>
 
 
-    <section className="container mx-auto">
+      <section className="container mx-auto">
         <Slider />
       </section>
+
+      <section className="flex flex-col lg:flex-row items-center lg:items-start justify-between lg:gap-12 px-6 lg:px-20 py-12 lg:py-44">
+        <div className="lg:w-1/2 text-center lg:text-left">
+          <h2 className="text-lg font-semibold text-blue-600 mb-2">Certificaciones</h2>
+          <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
+            Conviértete en un experto certificado en Blockchain
+          </h1>
+          <p className="text-gray-600 mb-6">
+            Fluyez Academy ya ha ayudado a una gran cantidad de personas alrededor del mundo. ¿Quieres ser el próximo?
+          </p>
+          <a
+            href="#"
+            className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition"
+          >
+            Empieza aquí
+          </a>
+        </div>
+
+        <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
+          <div className="relative w-full max-w-sm">
+            <Image
+              src={Certificate} // Reemplaza esto con la ruta correcta de la imagen
+              alt="Certificado de Finalización"
+              width={1024}
+              height={512}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
+
+      <div className="py-20 px-4">
+        <h2 className="text-3xl lg:text-4xl font-bold text-center mb-8">
+          Miles de personas confían en nosotros
+        </h2>
+        <TestimonialsCarousel />
+      </div>
+
+
+
+      <section className="flex flex-col lg:flex-row items-center lg:items-start justify-between lg:gap-12 px-6 lg:px-20 py-12 lg:py-44">
+        <div className="lg:w-1/2 text-center lg:text-left">
+          <h2 className="text-lg font-semibold text-blue-600 mb-2">Certificaciones</h2>
+          <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
+            Empieza a aprender y construye Dapps en la Web3
+          </h1>
+          <p className="text-gray-600 mb-6">
+            ¡Consigue oportunidades rápidamente con Fluyez academy y entra a la Web3 ahora!
+          </p>
+          <a
+            href="#"
+            className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition"
+          >
+            Empieza aquí
+          </a>
+        </div>
+
+        <div className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0">
+          <div className="relative w-full max-w-sm">
+            <Image
+              src={Dapps} // Reemplaza esto con la ruta correcta de la imagen
+              alt="Certificado de Finalización"
+              width={1024}
+              height={512}
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      
+    <Footer/>
     </>
   )
 }
