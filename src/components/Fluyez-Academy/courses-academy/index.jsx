@@ -8,7 +8,7 @@ export default function CoursesAcademy({courses}) {
   return (
     <div className="container mx-auto px-4 py-4">
       
-      <div className='flex'>
+      <div className='block md:flex'>
 
 
       <section className="my-8 max-w-md pr-16">
@@ -18,7 +18,7 @@ export default function CoursesAcademy({courses}) {
         </p>
         <a href="#" className="text-blue-500 mt-4 inline-block">Ver todos &rarr;</a>
       </section>
-      <div className="grid gap-4 lg:grid-cols-3">
+      <div className="block md:grid gap-4 lg:grid-cols-3">
         {relatedCourses.map((course) => (
           <Card
             key={course.id}

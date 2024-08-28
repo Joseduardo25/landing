@@ -38,32 +38,32 @@ const Academy = () => {
 
 
     {/* <!-- Hero Section --> */}
-    <section class="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
+    <section class="container mx-auto px-4 py-8 flex flex-row items-center">
       {/* <!-- Text Content --> */}
-      <div class="md:w-1/2 mt-8 md:mt-0">
+      <div class="w-1/2 mt-8 md:mt-0">
         <h2 className="text-lg font-semibold text-blue-600 mb-2">¡Aprende sobre crypto<br /> con nosotros!</h2>
         <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-4 max-w-[400px]">Cursos de Fluyez Academy</h1>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 hidden md:block">Empieza aquí</button>
+        {/* <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 hidden md:block">Empieza aquí</button> */}
       </div>
       {/* <!-- Image Content --> */}
-      <div class="md:w-1/2">
+      <div class="w-1/2">
         <Image src={DesktopManAcademy} alt="Criptomonedas" class="hidden md:block md:ml-auto" />
         <Image src={MobileManAcademy} alt="Criptomonedas" class="block md:hidden" />
       </div>
-      <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 block md:hidden ">Empieza aquí</button>
+      {/* <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 block md:hidden ">Empieza aquí</button> */}
     </section>
     <div className="container mx-auto px-4 py-4">
 
 
-      <div className="flex justify-between items-center my-8">
+      <div className="block md:flex justify-between items-center my-8">
         <input
           type="text"
           placeholder="Buscar cursos..."
-          className="border rounded-lg p-2 w-1/3"
+          className="border mb-6 md:mb-0 rounded-lg p-2 w-full md:w-1/3"
         />
         <div className="flex items-center">
-          <p className="mr-4">Ordenar por</p>
-          <select className="border rounded-lg p-2">
+          <p className="min-w-24 mr-4">Ordenar por</p>
+          <select className="w-full border rounded-lg p-2">
             <option>Todos los niveles</option>
           </select>
         </div>
