@@ -6,6 +6,7 @@ import MobileManAcademy from "/public/assets/images/fluyez-man-academy-mobile.pn
 import MenuMobile from "/public/assets/icons/menu-icon-mobile.png"
 import Footer from "@/components/footer"
 import CoursesAcademy from "@/components/Fluyez-Academy/courses-academy"
+import courses from "@/components/Fluyez-Academy/courses-academy/data/data.json"
 
 const Academy = () => {
   return (<>
@@ -19,7 +20,7 @@ const Academy = () => {
             {/* <span class="text-xl font-bold text-blue-700">fluyez<span class="text-gray-900">academy.</span></span> */}
           </div>
           {/* <!-- Navigation Links --> */}
-          <div class="hidden md:flex items-center space-x-4">
+          <div class="hidden md:flex items-center space-x-8">
             <a href="#" class="text-gray-700 hover:text-blue-700">Cursos</a>
             <a href="#" class="text-gray-700 hover:text-blue-700">Blog</a>
             <a href="#" class="text-gray-700 hover:text-blue-700">Glosario</a>
@@ -28,7 +29,7 @@ const Academy = () => {
             <a href="#" class="text-gray-700 hover:text-blue-700">Productos</a>
             <a href="#" class="text-gray-700 hover:text-blue-700">Contacto</a>
           </div>
-          <div>
+          <div className="md:hidden">
             <Image src={MenuMobile} alt="Logo" class="h-8 w-auto block md:hidden" />
           </div>
         </div>
@@ -41,12 +42,12 @@ const Academy = () => {
       {/* <!-- Text Content --> */}
       <div class="md:w-1/2 mt-8 md:mt-0">
         <h2 className="text-lg font-semibold text-blue-600 mb-2">¡Aprende sobre crypto<br /> con nosotros!</h2>
-        <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Cursos de Fluyez Academy</h1>
+        <h1 class="text-4xl md:text-5xl font-bold text-blue-900 mb-4 max-w-[400px]">Cursos de Fluyez Academy</h1>
         <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 hidden md:block">Empieza aquí</button>
       </div>
       {/* <!-- Image Content --> */}
       <div class="md:w-1/2">
-        <Image src={DesktopManAcademy} alt="Criptomonedas" class="hidden md:block" />
+        <Image src={DesktopManAcademy} alt="Criptomonedas" class="hidden md:block md:ml-auto" />
         <Image src={MobileManAcademy} alt="Criptomonedas" class="block md:hidden" />
       </div>
       <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 block md:hidden ">Empieza aquí</button>
@@ -68,10 +69,12 @@ const Academy = () => {
         </div>
       </div>
     </div>
-    <CoursesAcademy />
-    <CoursesAcademy />
-    <CoursesAcademy />
-    <CoursesAcademy />
+    < div className="mb-40">
+      <CoursesAcademy courses={courses.cursos_1} />
+      <CoursesAcademy courses={courses.cursos_2} />
+      <CoursesAcademy courses={courses.cursos_3} />
+      <CoursesAcademy courses={courses.cursos_4} />
+    </div>
 
 
 
