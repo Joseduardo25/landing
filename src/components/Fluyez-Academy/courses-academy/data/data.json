@@ -1,20 +1,102 @@
-[
+
   {
-    "id": 1,
-    "title": "Análisis Técnico de Criptomonedas",
-    "description": "Curso de análisis técnico para entender los movimientos del mercado de criptomonedas.",
-    "image": "/assets/images/Academy/technical-analysis.png"
-  },
-  {
-    "id": 2,
-    "title": "Curso de Bitcoin Básico",
-    "description": "Entiende los fundamentos básicos de Bitcoin y cómo funciona esta criptomoneda.",
-    "image": "/assets/images/Academy/technical-analysis.png"
-  },
-  {
-    "id": 3,
-    "title": "Curso Elemental de NFT",
-    "description": "Aprende sobre los NFTs, su impacto y cómo puedes involucrarte en este nuevo mundo.",
-    "image": "/assets/images/Academy/technical-analysis.png"
+    "cursos_1":{
+      "title": "Fundamentos Básicos",  
+      "content": "Lorem ipsum dolor sit amet consectetur. Id pharetra ut pellentesque risus pharetra platea nunc a. Eu enim mauris odio tortor eu pellentesque proin. Pellentesque et eu lorem a. Non magna adipiscing dui consectetur nulla ultrices nec.",
+      "relatedCourses": [
+        {
+          "id": 1,
+          "title": "Análisis Técnico de Criptomonedas",
+          "description": "Curso de análisis técnico para entender los movimientos del mercado de criptomonedas.",
+          "image": "/assets/images/Academy/technical-analysis.png"
+        },
+        {
+          "id": 2,
+          "title": "Curso de Bitcoin Básico",
+          "description": "Entiende los fundamentos básicos de Bitcoin y cómo funciona esta criptomoneda.",
+          "image": "/assets/images/Academy/basic-course-bitcoin.png"
+        },
+        {
+          "id": 3,
+          "title": "Curso Elemental de NFT",
+          "description": "Aprende sobre los NFTs, su impacto y cómo puedes involucrarte en este nuevo mundo.",
+          "image": "/assets/images/Academy/foundation-course-NFT.png"
+        }
+      ]
+    },
+
+    "cursos_2":{
+      "title": "Bitcoin",
+      "content": "Lorem ipsum dolor sit amet consectetur. Id pharetra ut pellentesque risus pharetra platea nunc a. Eu enim mauris odio tortor eu pellentesque proin. Pellentesque et eu lorem a. Non magna adipiscing dui consectetur nulla ultrices nec.",
+      "relatedCourses": [
+        {
+          "id": 4,
+          "title": "Análisis Técnico de Criptomonedas",
+          "description": "Curso de análisis técnico para entender los movimientos del mercado de criptomonedas.",
+          "image": "/assets/images/Academy/metrics-purple.png"
+        },
+        {
+          "id": 5,
+          "title": "Curso de Bitcoin Básico",
+          "description": "Entiende los fundamentos básicos de Bitcoin y cómo funciona esta criptomoneda.",
+          "image": "/assets/images/Academy/candle-bitcoin.png"
+        },
+        {
+          "id": 6,
+          "title": "Curso Elemental de NFT",
+          "description": "Aprende sobre los NFTs, su impacto y cómo puedes involucrarte en este nuevo mundo.",
+          "image": "/assets/images/Academy/miner-bitcoin.png"
+        }
+      ]
+    },
+    "cursos_3":{
+      "title": "Análisis técnico",
+      "content": "Lorem ipsum dolor sit amet consectetur. Id pharetra ut pellentesque risus pharetra platea nunc a. Eu enim mauris odio tortor eu pellentesque proin. Pellentesque et eu lorem a. Non magna adipiscing dui consectetur nulla ultrices nec.",
+      "relatedCourses": [
+        {
+          "id": 7,
+          "title": "Análisis Técnico de Criptomonedas",
+          "description": "Curso de análisis técnico para entender los movimientos del mercado de criptomonedas.",
+          "image": "/assets/images/Academy/per-to-per.png"
+        },
+        {
+          "id": 8,
+          "title": "Curso Elemental de NFT",
+          "description": "Entiende los fundamentos básicos de Bitcoin y cómo funciona esta criptomoneda.",
+          "image": "/assets/images/Academy/candle-stage-2-bitcoin.png"
+        },
+        {
+          "id": 9,
+          "title": "Curso Elemental de NFT",
+          "description": "Aprende sobre los NFTs, su impacto y cómo puedes involucrarte en este nuevo mundo.",
+          "image": "/assets/images/Academy/foundation-bitcoin.png"
+        }
+      ]
+    },
+    "cursos_4":{
+      "title": "Fundamentos Básicos",
+      "content": "Lorem ipsum dolor sit amet consectetur. Id pharetra ut pellentesque risus pharetra platea nunc a. Eu enim mauris odio tortor eu pellentesque proin. Pellentesque et eu lorem a. Non magna adipiscing dui consectetur nulla ultrices nec.",
+      "relatedCourses": [
+        {
+          "id": 10,
+          "title": "Análisis Técnico de Criptomonedas",
+          "description": "Curso de análisis técnico para entender los movimientos del mercado de criptomonedas.",
+          "image": "/assets/images/Academy/technical-analysis.png"
+        },
+        {
+          "id": 11,
+          "title": "Curso de Bitcoin Básico",
+          "description": "Entiende los fundamentos básicos de Bitcoin y cómo funciona esta criptomoneda.",
+          "image": "/assets/images/Academy/basic-course-bitcoin.png"
+        },
+        {
+          "id": 12,
+          "title": "Curso Elemental de NFT",
+          "description": "Aprende sobre los NFTs, su impacto y cómo puedes involucrarte en este nuevo mundo.",
+          "image": "/assets/images/Academy/foundation-course-NFT.png"
+        }
+      ]
+    }
+    
   }
-]
+  
