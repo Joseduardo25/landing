@@ -8,3 +8,7 @@
     text-wrap: balance;
   }
 }
+
+.swiper-slide{
+  height: 80% !important;
+}

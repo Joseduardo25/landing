@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Alfredo Hidalgo",
+    "role": "Desarrollador Web3",
+    "image": "/assets/images/testimonials/Alfredo-Hidalgo.png",
+    "testimonial": "Lorem ipsum dolor sit amet consectetur. Netus adipiscing sodales egestas odio. Sapien varius diam lacinia blandit ut sed morbi orci sed."
+  },
+  {
+    "id": 2,
+    "name": "Maria Gil",
+    "role": "Desarrollador Blockchain",
+    "image": "/assets/images/testimonials/Maria-Gil.png",
+    "testimonial": "Lorem ipsum dolor sit amet consectetur. Cursus gravida urna libero viverra. Purus justo massa lectus nec sit libero. Urna sit vitae semper enim mauris turpis odio mus."
+  },
+  {
+    "id": 3,
+    "name": "Jose Vasquez",
+    "role": "Contador",
+    "image": "/assets/images/testimonials/Jose-vasquez.png",
+    "testimonial": "Lorem ipsum dolor sit amet consectetur. Adipiscing in consequat a ante nullam dui. Netus amet aliquam nunc et egestas purus."
+  },
+  {
+    "id": 4,
+    "name": "Ana Perez",
+    "role": "Ingeniera de Datos",
+    "image": "/assets/images/testimonials/Alfredo-Hidalgo.png",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna."
+  },
+  {
+    "id": 5,
+    "name": "Carlos Sanchez",
+    "role": "Desarrollador Backend",
+    "image": "/assets/images/testimonials/Maria-Gil.png",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+  },
+  {
+    "id": 6,
+    "name": "Laura Gómez",
+    "role": "Gerente de Proyectos",
+    "image": "/assets/images/testimonials/Jose-vasquez.png",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+  }
+]
