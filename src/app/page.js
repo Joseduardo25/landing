@@ -18,6 +18,7 @@ import PromoCards from "@/components/prom-cards"
 import NewsletterBanner from "@/components/News-Letter"
 import FrequentlyQuestions from "@/components/frequently-questions"
 import FAQ from "@/components/FAQ"
+import Steps from "@/components/steps"
 
 export default function Home() {
   return (
@@ -261,18 +262,36 @@ export default function Home() {
         </div>
       </section>
 
+      <section class="w-full bg-[#FFFFFF]">
+
+        <div className="container mx-auto px-4 py-24 flex flex-col  items-center">
+          <h2 className="text-xl font-semibold text-[#1644CC] mb-4">Empieza tu educación</h2>
+
+          <h1 className="text-3xl lg:text-5xl font-bold text-center mb-16 text-[#000D59]">
+            ¿Cómo funciona?
+          </h1>
+        </div>
+          <Steps />
+      </section>
+
+
+      <section class="w-full bg-[#FFFFFF]">
+
+        <div className="container mx-auto px-4 py-24 ">
+          <NewsletterBanner />
+        </div>
+
+      </section>
 
 
 
       <section class="w-full bg-[#FFFFFF]">
 
-<div className="container mx-auto px-4 py-24 ">
-  <NewsletterBanner />
-</div>
+        <div className="container mx-auto px-4 py-24 flex flex-col  items-center">
+          <FAQ />
+        </div>
 
-</section>
-
-
+      </section>
 
 
       <section class="w-full bg-[#FFFFFF]">
@@ -284,23 +303,13 @@ export default function Home() {
       </section>
 
 
-      <section class="w-full bg-[#FFFFFF]">
 
-        <div className="container mx-auto px-4 py-24 flex flex-col  items-center">
-          <FrequentlyQuestions />
-        </div>
 
-      </section>
 
-      <section class="w-full bg-[#FFFFFF]">
 
-        <div className="container mx-auto px-4 py-24 flex flex-col  items-center">
-          <FAQ />
-        </div>
 
-      </section>
 
-      
+
 
 
       <Footer />

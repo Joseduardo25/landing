@@ -34,7 +34,7 @@ const FAQ = () => {
   }, [activeIndex]);
 
   return (
-    <section className="max-w-4xl mx-auto my-8 px-4">
+    <section className="w-full px-4">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Preguntas frecuentes</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
